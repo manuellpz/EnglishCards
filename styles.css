@@ -1,0 +1,36 @@
+body {
+  background: #222;
+  font-family: system-ui;
+}
+
+main {
+  width:90vw;
+  height:100vh;
+  display:flex;
+  flex-flow:column wrap;
+  justify-content: center;
+  align-items:center;
+}
+
+.card_container {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:yellow;
+  width: 60vw;
+  height: 15vh;
+  border-radius:8px;
+  cursor:pointer;
+  margin-bottom:15px;
+}
+
+#btn_next {
+  background:forestgreen;
+  color:white;
+  padding:10px;
+  width:50vw;
+  font-size: 20px;
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
