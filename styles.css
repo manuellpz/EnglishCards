@@ -24,6 +24,12 @@ main {
   margin-bottom:15px;
 }
 
+.meaning {
+  background:black;
+  color:yellow;
+  transition:1s ease-in-out;
+}
+
 #btn_next {
   background:forestgreen;
   color:white;
